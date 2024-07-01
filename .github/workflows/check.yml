@@ -65,7 +65,7 @@ jobs:
           bundler-cache: true
 
       - name: Danger
-        uses: MeilCli/danger-action@92032d3cdb3121fd83fc9d86d40610cc6f93cd1f
+        uses: MeilCli/danger-action@5063f254f1f47203496bc4c251670705b3daee50
         if: always()
         with:
           plugins_file: 'Gemfile'
